@@ -29,3 +29,11 @@ developed by Oded Nir and Ori Lahav at the Technion - Israel Institute of
 Technology, Faculty of Civil and Environmental Engineering. Further development 
 is now performed by Oded Nir in the Zuckerberg Institute for Water Research, 
 Blaustein Institutes for Desert Research, Ben Gurion University, Israel.
+
+
+## References
+1. **O. Nir**, O. Lahav, 2016, Acid-base dynamics in seawater reverse osmosis: experimental evaluation 
+of a reactive-transport algorithm, Environmental Science: Water Research and Technology 2(1), 
+107-116.
+2. **O. Nir**, When does commercial software fail in predicting scaling tendency in reverse osmosis and 
+what can we do better? Desalination and Water Treatment. 2018 Nov 1;131:34-42

@@ -30,7 +30,7 @@ ks = 2.32e-5 #7.73e-6 #Enter average mass transfer coefficient for charged solut
 Pb0 = 1.875e-6 #2.78e-5 #Enter B(OH)3 permeabiliy (if unavailable enter 0)
 kb = 1.0e-3 #1.62e-5 #Enter average mass transfer coefficient for unchraged solutes (if unavailable enter 0)
  
-"""Enter manufacturer results from tandard test conditions for estimating missing membrane constants"""
+"""Enter manufacturer results from standard test conditions for estimating missing membrane constants"""
 P_std = 41.0 #Enter standard pressure (bars)
 NaCl_std = 32.0 #Enter standard NaCl concentration (g/l)
 B_std = 5.0 #Enter standard B concentration (mg/l)
@@ -50,34 +50,34 @@ d_mil = 28.0 #enter feed spacer height (mil)
                                            NaCl_std,B_std,A,Qw,Rej_NaCl,Rej_B,d_mil,pressure_drop)
 
 """Output printing"""
-print '\n Done\n Printing Results: \n'
+print ('\n Done\n Printing Results: \n')
 
-print 'Accumulated permeate B (mg/l)'
-print '\n'.join(map(str, Btp_Accum_mgl))
-print '\n'
-print 'Brine pH'
-print '\n'.join(map(str, pH_b))
-print '\n'
-print 'Permeate pH'
-print '\n'.join(map(str, pH_p))
-print '\n'
-print 'Permeate Alkalinty (eq/l)'
-print '\n'.join(map(str, Alkp))
-print '\n'
-print 'Permeate flux (m/s)'
-print '\n'.join(map(str, Jw))
-print '\n'
-print 'Permeate NaCl (mol/l)'
-print '\n'.join(map(str, Cp))
-print '\n'
-print 'Brine_NaCl'
-print '\n'.join(map(str, Cb))
-print '\n'
-print 'Brine Alkalinity'
-print '\n'.join(map(str, Alkb))
-print '\n'
-print 'Momentary Permeate B (Mol/l)'
-print '\n'.join(map(str, Btp))
+print ('Accumulated permeate B (mg/l)')
+print ('\n'.join(map(str, Btp_Accum_mgl)))
+print ('\n')
+print ('Brine pH')
+print ('\n'.join(map(str, pH_b)))
+print ('\n')
+print ('Permeate pH')
+print ('\n'.join(map(str, pH_p)))
+print ('\n')
+print ('Permeate Alkalinty (eq/l)')
+print ('\n'.join(map(str, Alkp)))
+print ('\n')
+print ('Permeate flux (m/s)')
+print ('\n'.join(map(str, Jw)))
+print ('\n')
+print ('Permeate NaCl (mol/l)')
+print ('\n'.join(map(str, Cp)))
+print ('\n')
+print ('Brine_NaCl')
+print ('\n'.join(map(str, Cb)))
+print ('\n')
+print ('Brine Alkalinity')
+print ('\n'.join(map(str, Alkb)))
+print ('\n')
+print ('Momentary Permeate B (Mol/l)')
+print ('\n'.join(map(str, Btp)))
 
  
 """Membrane Elements
